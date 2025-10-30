@@ -1,0 +1,19 @@
+.tech-list {
+  /* Makes the text noticeably smaller than the 'subtitle' */
+  font-size: 0.8em; 
+  /* Or use a specific size like 14px, depending on your base font */
+  
+  /* Adds a little space between the main line and the tech list */
+  margin-top: 5px; 
+  
+  /* Optional: Makes the color a bit less dominant */
+  color: #888; 
+  
+  /* Ensures the line doesn't break into multiple rows unexpectedly */
+  white-space: nowrap;
+}
+
+/* Optional: To ensure the tech list is also aligned with the subtitle */
+.subtitle, .tech-list {
+  text-align: center; /* or left, right, depending on your layout */
+}
